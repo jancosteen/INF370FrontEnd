@@ -15,6 +15,8 @@ import { PanelsComponent } from './components/panels/panels.component';
 import { UserComponent } from './components/user/user.component';
 import { PlanheadingComponent } from './components/planheading/planheading.component';
 import { RegisterComponent } from './components/register/register.component';
+import { MessageboxComponent } from './components/messagebox/messagebox.component';
+import { ClientprofileComponent } from './components/clientprofile/clientprofile.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { RegisterComponent } from './components/register/register.component';
     PanelsComponent,
     UserComponent,
     PlanheadingComponent,
-    RegisterComponent
+    RegisterComponent,
+    MessageboxComponent,
+    ClientprofileComponent
   ],
   imports: [
     BrowserModule,

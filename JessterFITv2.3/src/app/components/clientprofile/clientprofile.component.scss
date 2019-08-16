@@ -1,0 +1,39 @@
+.profile {
+    text-align: center;
+    align-content: center;
+    margin-left: 27%;
+    margin-right: 25%;
+}
+
+#booking {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 23px;
+    
+  }
+  
+  #booking td, #booking th {
+    padding: 8px;
+  }
+    
+  #booking tr:hover {background-color: #ddd;}
+  
+  #booking th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #f5c242;
+    color: white;
+    font-weight: bolder;
+  }
+
+  #booking td{
+    padding: 8px;
+    color: #f5c242;
+    font-weight: bolder;
+  }
+
+  #booking tr{
+    background-color: #f2f2f2;
+  }
